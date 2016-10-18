@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Test market searcher",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "6ab61c11f4a9bb72",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "2484943c3fe876c2",
+        "name" : "testSearcher[Search in Электроника Наушники и Bluetooth-гарнитуры at low price 5000 by models Beats]",
+        "title" : "Test searcher [Search in Электроника Наушники и Bluetooth-гарнитуры at low price 5000 by models Beats]",
+        "time" : {
+          "start" : 1476809424894,
+          "stop" : 1476809477919,
+          "duration" : 53025
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "28eab44e4b134c91",
+        "name" : "testSearcher[Search in Электроника Телевизоры at low price 20000 by models LG;Samsung]",
+        "title" : "Test searcher [Search in Электроника Телевизоры at low price 20000 by models LG;Samsung]",
+        "time" : {
+          "start" : 1476809477952,
+          "stop" : 1476809528585,
+          "duration" : 50633
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

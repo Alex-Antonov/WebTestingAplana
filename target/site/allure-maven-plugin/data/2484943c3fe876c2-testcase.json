@@ -1,0 +1,180 @@
+{
+  "uid" : "2484943c3fe876c2",
+  "name" : "testSearcher[Search in Электроника Наушники и Bluetooth-гарнитуры at low price 5000 by models Beats]",
+  "title" : "Test searcher [Search in Электроника Наушники и Bluetooth-гарнитуры at low price 5000 by models Beats]",
+  "time" : {
+    "start" : 1476809424894,
+    "stop" : 1476809477919,
+    "duration" : 53025
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Test equaling of first result of searching with parameters to result of searching by pruduct title",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6c4279da047e3df3",
+    "name" : "my.antonov.tests.impl.searching.HeadphoneSearcherTest",
+    "title" : "Headphone searcher test"
+  },
+  "steps" : [ {
+    "name" : "goToMarketPage",
+    "title" : "Go to yandex market page",
+    "time" : {
+      "start" : 1476809440488,
+      "stop" : 1476809441102,
+      "duration" : 614
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectTypeOfGood[Электроника]",
+    "title" : "Select type of good Электроника",
+    "time" : {
+      "start" : 1476809441117,
+      "stop" : 1476809444759,
+      "duration" : 3642
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectGood[Наушники и Bluetooth-гарнитуры]",
+    "title" : "Select good Наушники и Bluetooth-гарнитуры",
+    "time" : {
+      "start" : 1476809444765,
+      "stop" : 1476809449337,
+      "duration" : 4572
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToExtendedSearching",
+    "title" : "Going to extended searching page",
+    "time" : {
+      "start" : 1476809449340,
+      "stop" : 1476809461209,
+      "duration" : 11869
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setLowPriceInput[5000]",
+    "title" : "Setting low price 5000",
+    "time" : {
+      "start" : 1476809461218,
+      "stop" : 1476809461603,
+      "duration" : 385
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectModels[[Beats]]",
+    "title" : "Select models [Beats]",
+    "time" : {
+      "start" : 1476809461607,
+      "stop" : 1476809467284,
+      "duration" : 5677
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "isSearchedEqualsToResult[Beats Solo2 Wireless]",
+    "title" : "Checking the result Beats Solo2 Wireless is equals title of product",
+    "time" : {
+      "start" : 1476809475039,
+      "stop" : 1476809475744,
+      "duration" : 705
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "makeScreenshot",
+    "source" : "40c5a7a5-f652-420f-b87e-7c85bb2fea97-attachment.png",
+    "type" : "image/png",
+    "size" : 1250710,
+    "uid" : "528b29d4d4480cd7"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Test market searcher"
+  }, {
+    "name" : "suite-name",
+    "value" : "my.antonov.tests.impl.searching.HeadphoneSearcherTest"
+  }, {
+    "name" : "thread",
+    "value" : "13104@littlebro.pool-1-thread-1(12)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "littlebro"
+  } ],
+  "parameters" : [ {
+    "name" : "РўРёРї РёСЃРєРѕРјРѕРіРѕ С‚РѕРІР°СЂР°",
+    "value" : "Электроника",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "РўРѕРІР°СЂ",
+    "value" : "Наушники и Bluetooth-гарнитуры",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚",
+    "value" : "5000",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "Р¤РёСЂРјС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рё",
+    "value" : "[Ljava.lang.String;@14520b41",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

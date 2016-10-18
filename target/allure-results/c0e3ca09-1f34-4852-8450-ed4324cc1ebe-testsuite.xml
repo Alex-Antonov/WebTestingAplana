@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476809477950" stop="1476809528699" version="1.4.24.RC2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>my.antonov.tests.impl.searching.TvSearcherTest</name>
+    <test-cases>
+        <test-case start="1476809477952" stop="1476809528585" status="passed">
+            <name>testSearcher[Search in Электроника Телевизоры at low price 20000 by models LG;Samsung]</name>
+            <description type="text">Test equaling of first result of searching with parameters to result of searching by pruduct title</description>
+            <steps>
+                <step start="1476809490349" stop="1476809490691" status="passed">
+                    <name>goToMarketPage</name>
+                    <title>Go to yandex market page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809490695" stop="1476809494326" status="passed">
+                    <name>selectTypeOfGood[Электроника]</name>
+                    <title>Select type of good Электроника</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809494330" stop="1476809500681" status="passed">
+                    <name>selectGood[Телевизоры]</name>
+                    <title>Select good Телевизоры</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809500683" stop="1476809504921" status="passed">
+                    <name>goToExtendedSearching</name>
+                    <title>Going to extended searching page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809504924" stop="1476809510246" status="passed">
+                    <name>setLowPriceInput[20000]</name>
+                    <title>Setting low price 20000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809510250" stop="1476809516326" status="passed">
+                    <name>selectModels[[LG, Samsung]]</name>
+                    <title>Select models [LG, Samsung]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809525634" stop="1476809526072" status="passed">
+                    <name>isSearchedEqualsToResult[Samsung UE32J4000AU]</name>
+                    <title>Checking the result Samsung UE32J4000AU is equals title of product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="makeScreenshot" source="48256536-597b-43cd-a243-6c461fc68578-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="feature" value="Test market searcher"/>
+                <label name="host" value="littlebro"/>
+                <label name="thread" value="13104@littlebro.pool-1-thread-2(17)"/>
+            </labels>
+            <parameters>
+                <parameter name="РўРёРї РёСЃРєРѕРјРѕРіРѕ С‚РѕРІР°СЂР°" value="Электроника" kind="environment-variable"/>
+                <parameter name="РўРѕРІР°СЂ" value="Телевизоры" kind="environment-variable"/>
+                <parameter name="РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚" value="20000" kind="environment-variable"/>
+                <parameter name="Р¤РёСЂРјС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рё" value="[Ljava.lang.String;@7afe8e2b" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

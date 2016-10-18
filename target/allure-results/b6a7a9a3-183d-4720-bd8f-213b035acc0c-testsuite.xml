@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476809424863" stop="1476809529157" version="1.4.24.RC2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>my.antonov.tests.impl.searching.HeadphoneSearcherTest</name>
+    <test-cases>
+        <test-case start="1476809424894" stop="1476809477919" status="passed">
+            <name>testSearcher[Search in Электроника Наушники и Bluetooth-гарнитуры at low price 5000 by models Beats]</name>
+            <description type="text">Test equaling of first result of searching with parameters to result of searching by pruduct title</description>
+            <steps>
+                <step start="1476809440488" stop="1476809441102" status="passed">
+                    <name>goToMarketPage</name>
+                    <title>Go to yandex market page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809441117" stop="1476809444759" status="passed">
+                    <name>selectTypeOfGood[Электроника]</name>
+                    <title>Select type of good Электроника</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809444765" stop="1476809449337" status="passed">
+                    <name>selectGood[Наушники и Bluetooth-гарнитуры]</name>
+                    <title>Select good Наушники и Bluetooth-гарнитуры</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809449340" stop="1476809461209" status="passed">
+                    <name>goToExtendedSearching</name>
+                    <title>Going to extended searching page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809461218" stop="1476809461603" status="passed">
+                    <name>setLowPriceInput[5000]</name>
+                    <title>Setting low price 5000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809461607" stop="1476809467284" status="passed">
+                    <name>selectModels[[Beats]]</name>
+                    <title>Select models [Beats]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1476809475039" stop="1476809475744" status="passed">
+                    <name>isSearchedEqualsToResult[Beats Solo2 Wireless]</name>
+                    <title>Checking the result Beats Solo2 Wireless is equals title of product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="makeScreenshot" source="40c5a7a5-f652-420f-b87e-7c85bb2fea97-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="feature" value="Test market searcher"/>
+                <label name="host" value="littlebro"/>
+                <label name="thread" value="13104@littlebro.pool-1-thread-1(12)"/>
+            </labels>
+            <parameters>
+                <parameter name="РўРёРї РёСЃРєРѕРјРѕРіРѕ С‚РѕРІР°СЂР°" value="Электроника" kind="environment-variable"/>
+                <parameter name="РўРѕРІР°СЂ" value="Наушники и Bluetooth-гарнитуры" kind="environment-variable"/>
+                <parameter name="РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚" value="5000" kind="environment-variable"/>
+                <parameter name="Р¤РёСЂРјС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рё" value="[Ljava.lang.String;@14520b41" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

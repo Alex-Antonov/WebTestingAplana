@@ -1,0 +1,180 @@
+{
+  "uid" : "28eab44e4b134c91",
+  "name" : "testSearcher[Search in Электроника Телевизоры at low price 20000 by models LG;Samsung]",
+  "title" : "Test searcher [Search in Электроника Телевизоры at low price 20000 by models LG;Samsung]",
+  "time" : {
+    "start" : 1476809477952,
+    "stop" : 1476809528585,
+    "duration" : 50633
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Test equaling of first result of searching with parameters to result of searching by pruduct title",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9e0d791e19f4ef99",
+    "name" : "my.antonov.tests.impl.searching.TvSearcherTest",
+    "title" : "Tv searcher test"
+  },
+  "steps" : [ {
+    "name" : "goToMarketPage",
+    "title" : "Go to yandex market page",
+    "time" : {
+      "start" : 1476809490349,
+      "stop" : 1476809490691,
+      "duration" : 342
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectTypeOfGood[Электроника]",
+    "title" : "Select type of good Электроника",
+    "time" : {
+      "start" : 1476809490695,
+      "stop" : 1476809494326,
+      "duration" : 3631
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectGood[Телевизоры]",
+    "title" : "Select good Телевизоры",
+    "time" : {
+      "start" : 1476809494330,
+      "stop" : 1476809500681,
+      "duration" : 6351
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToExtendedSearching",
+    "title" : "Going to extended searching page",
+    "time" : {
+      "start" : 1476809500683,
+      "stop" : 1476809504921,
+      "duration" : 4238
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setLowPriceInput[20000]",
+    "title" : "Setting low price 20000",
+    "time" : {
+      "start" : 1476809504924,
+      "stop" : 1476809510246,
+      "duration" : 5322
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectModels[[LG, Samsung]]",
+    "title" : "Select models [LG, Samsung]",
+    "time" : {
+      "start" : 1476809510250,
+      "stop" : 1476809516326,
+      "duration" : 6076
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "isSearchedEqualsToResult[Samsung UE32J4000AU]",
+    "title" : "Checking the result Samsung UE32J4000AU is equals title of product",
+    "time" : {
+      "start" : 1476809525634,
+      "stop" : 1476809526072,
+      "duration" : 438
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "makeScreenshot",
+    "source" : "48256536-597b-43cd-a243-6c461fc68578-attachment.png",
+    "type" : "image/png",
+    "size" : 1871348,
+    "uid" : "97413bdfed9e4eb"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Test market searcher"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "13104@littlebro.pool-1-thread-2(17)"
+  }, {
+    "name" : "suite-name",
+    "value" : "my.antonov.tests.impl.searching.TvSearcherTest"
+  }, {
+    "name" : "host",
+    "value" : "littlebro"
+  } ],
+  "parameters" : [ {
+    "name" : "РўРёРї РёСЃРєРѕРјРѕРіРѕ С‚РѕРІР°СЂР°",
+    "value" : "Электроника",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "РўРѕРІР°СЂ",
+    "value" : "Телевизоры",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚",
+    "value" : "20000",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "Р¤РёСЂРјС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рё",
+    "value" : "[Ljava.lang.String;@7afe8e2b",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}
